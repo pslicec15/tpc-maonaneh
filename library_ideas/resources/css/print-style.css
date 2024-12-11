@@ -1,0 +1,9 @@
+@media print {
+  body.specific-page {
+      @page {
+          size: legal landscape;
+      }
+
+      margin: 0.5in; /* Adjust margin as needed */
+  }
+}
